@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Media Tab Scanner",
+  "version": "1.0",
+  "description": "Scans all tabs and lists those with playing media.",
+  "permissions": ["tabs", "<all_urls>"],
+  "browser_action": {
+    "default_icon": "icons/icon-48.png",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icons/icon-48.png"
+  }
+}
