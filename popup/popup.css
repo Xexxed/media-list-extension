@@ -1,0 +1,22 @@
+body {
+  width: 300px;
+  font-family: sans-serif;
+}
+
+.media-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.media-item:hover {
+  background-color: #f0f0f0;
+}
+
+.favicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
